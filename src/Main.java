@@ -264,14 +264,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 // write your code here
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);// we need 3 Variable 
         System.out.print("Enter the number you want a factorial of: ");
         int i,fact=1;
         int number= sc.nextInt();//It is the number to calculate factorial
         for(i=1;i<=number;i++){
             fact=fact*i;
         }
-        System.out.println("Factorial of "+number+" is: "+fact);
+        System.out.println("Factorial of "+number+" is: "+fact); 
     }
 }
 
