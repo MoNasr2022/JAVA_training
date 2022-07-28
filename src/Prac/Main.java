@@ -1,4 +1,5 @@
-/*public class Main {
+package Prac;/*
+// package Prac;/*public class Prac.Main {
     public static void main(String[] args) {
         byte mybyte = 12;
         short myshort = 3277;
@@ -21,7 +22,7 @@
 //============================================================================================
 
 /*
-public class Main {
+public class Prac.Main {
         public static void main(String[] args)
             {
             int a = 20, b = 10;
@@ -43,7 +44,7 @@ public class Main {
 //===========================================================================================================
 
 /*
-public class Main {
+public class Prac.Main {
     public static void main(String[] args) {
         boolean x = true;   //dogs are awesome
         boolean y = false;  //Spiders are cute
@@ -65,7 +66,7 @@ public class Main {
 
  */
 //===================================================================
-/* public class Main {
+/* public class Prac.Main {
 
     public static void main(String[] args) {
 
@@ -90,7 +91,7 @@ public class Main {
   /*
    import java.util.Scanner;
 
-   public class Main {
+   public class Prac.Main {
 
     public static void main(String[] args) {
 
@@ -145,7 +146,7 @@ public class Main {
 
 /*import java.util.Scanner;
 
-public class Main {
+public class Prac.Main {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -168,7 +169,7 @@ public class Main {
 //============================================================================
 
 
-   /*public class Main {
+   /*public class Prac.Main {
 
        public static void main(String[] args) {
 
@@ -188,7 +189,7 @@ public class Main {
 
 /*import java.util.Scanner;
 
-public class Main {
+public class Prac.Main {
 
        public static void main(String[] args) {
            Scanner in = new Scanner(System.in);
@@ -214,7 +215,7 @@ public class Main {
 
 //import java.util.Scanner;
 
-/*public class Main {
+/*public class Prac.Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -242,26 +243,32 @@ public class Main {
 /*
 public class Main {
     public static void main(String[] args) {
-        int[] myArray = new int[]{1,2,3,5,7,9,19,22,4};
+        int[] myArray = new int[]{1, 2, 3, 5, 7, 9, 19, 22, 4};
 
-         System.out.println(myArray[6]);
-        length of the array
+        System.out.println(myArray[6]);
+
         System.out.println(myArray.length);
 
-      for(int i = 0; i < 9;i++) {
-      System.out.println(myArray[i]);
-      //System.out.println((myArray[0]+myArray[8]));
+        for (int i = 0; i < 9; i++) {
+            System.out.println(myArray[i]);
+            System.out.println((myArray[0] + myArray[8]));
 
 
+        }
     }
-}}
+
+
+
  */
+
+
+
 //==========================================================================================
 
 /*
 import java.util.Scanner;
 
-public class Main {
+public class Prac.Main {
     public static void main(String[] args) {
 // write your code here
         Scanner sc = new Scanner(System.in);// we need 3 Variable 
@@ -277,3 +284,176 @@ public class Main {
 
 
  */
+//==========================================================================================
+
+   /*
+import Chap_2.Player;
+
+public class main {
+    public static void main(String[] args) {
+       
+
+        System.out.println(calculateCircleArea(5));
+
+    }
+
+           static double calculateCircleArea(int radius){
+
+            double area = java.lang.Math.PI * radius*radius;
+            return area;
+        }
+        
+    }
+
+    */
+
+
+
+
+//====================================================================
+   /*
+class Main {
+    public static void main(String[] args) {
+
+        int[] myArray = new int[]{7, 5, 5, 89, 12, 45, 7, 0};
+        System.out.println(calculatSumofArray(myArray));
+
+
+    }
+    // input is array
+    //output is int
+
+    static double calculateCircleArea(int radius) {
+        double area = java.lang.Math.PI * radius * radius;
+        return area;
+    }
+
+    static int calculatSumofArray(int[] myArray) {
+        int sum = 0;
+
+        for (int i = 0; i < myArray.length; i++) {
+            sum = sum + myArray[i];
+
+        }
+        return sum; 
+    }
+}
+
+    */
+
+
+ //===========================================================
+
+/*
+import clasess.Line;
+import clasess.Point;
+
+public class Prac.Main {
+    public static void main(String[] args) {
+
+        Point ourFirstPoint = new Point(3.0, 4);
+        Point ourSecondPont = new Point(7, 10);
+
+        Line ourLine = new Line(ourFirstPoint,ourSecondPont);
+        System.out.println("Gradient: " + ourLine.gradient());
+        System.out.println("Length: " + ourLine.lineLength());
+         
+    }
+}
+
+ */
+//============================================
+
+ /*
+import Chap_2.Dog;
+
+public class Prac.Main {
+    public static void main(String[] args) {
+        Dog Alex = new Dog("Alex", 6, "red", "german")          ;
+        Dog Jon = new Dog(8,"black","jon","wild");
+        
+          Alex.eat("dry food");
+          Jon.bark();
+    }
+
+
+
+}
+
+  */
+//============================================================================
+        /*
+
+import Chap_2.Player;
+
+public class main {
+    public static void main(String[] args) {
+        Player Alex = new Player("Alex", 12, "male");
+        Player Jon  = new Player(8,"Jon","male");
+
+        int Alex_total=0;     int Jon_total=0;
+        int Alex_current_roll=0;  int Jon_current_roll =0;
+
+
+        while (Alex_total <20  && Jon_total < 20) {
+            Alex_current_roll = Alex.roll();
+            Jon_current_roll = Jon.roll();
+
+
+            System.out.println("Alex_current_roll is " + Alex_current_roll + " and " + " Jon_current_roll is " + Jon_current_roll);
+
+
+            Alex_total = Alex_total + Alex_current_roll;
+            Jon_total = Jon_total + Jon_current_roll;
+
+
+
+        }
+
+
+
+        if(Alex_total >= 20 ) {
+            System.out.println("Alex wins");
+        }
+        
+        else {
+            System.out.println("Jon wins");
+        }
+
+
+    }}
+
+
+         */
+
+//==================================================
+
+
+    //Q1: Create an integer array and store ten integers in it. Create a new integer array of the same
+    //size (10). But do not store any integers in it when you create the second array. Instead,
+    //assign the first array as the value of the second array.
+/*
+
+public class main {
+    public static void main(String[] args) {
+
+       int[] firstArray = new int[]{12, 5, 3, 27, 8, 41, 67, 32, 7, 10, 25};
+       int[] secArray = new int[]{};
+       secArray = firstArray;
+
+
+
+
+       int i = 0;
+
+
+       for (i = 0 ; i < 10; i++){
+           elements = firstArray;
+           elements =new int[]{i};
+
+           System.out.println(elements);
+
+
+
+ */
+

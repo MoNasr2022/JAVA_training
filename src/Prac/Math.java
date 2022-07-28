@@ -1,6 +1,8 @@
-/*import java.util.Scanner;
 
-public class Math {
+//package Prac;/*import java.util.Scanner;
+ /*
+
+public class Prac.Math {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -35,6 +37,10 @@ public class Math {
 
  */
 //==============================================
+
+
+/*
+
 import java.util.Scanner;
 
 public class Math {
@@ -53,3 +59,6 @@ public class Math {
 }
 //Important
 
+
+
+ */
