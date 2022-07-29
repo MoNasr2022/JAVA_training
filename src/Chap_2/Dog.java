@@ -26,10 +26,12 @@ public class Dog {
     }
 
     public void eat() {
+
         System.out.println(this.name + " has eaten");
     }
 
     public void eat(String food) {
+
         System.out.println(this.name + " has eaten " + food);
     }
 

@@ -21,29 +21,17 @@ package HW;
              this.animalFood = Food;
 
          }
+         public void makeSound(int x ){
+             System.out.println(this.name + " makes sound " + x + " times");
 
 
+         }
 
 
+         public void eat(String Y) {
+             System.out.println( "after " + "he" + " has eaten " + Y);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         }
      }
 
 
