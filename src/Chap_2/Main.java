@@ -1,4 +1,4 @@
-package Prac;/*
+package Chap_2;/*
 // package Prac;/*public class Prac.Main {
     public static void main(String[] args) {
         byte mybyte = 12;
@@ -343,12 +343,11 @@ class Main {
 
 
  //===========================================================
+
 /*
 
-import clasess.Line;
-import clasess.Point;
 
-public class Prac.Main {
+public class Main {
     public static void main(String[] args) {
 
         Point ourFirstPoint = new Point(3.0, 4);
@@ -362,6 +361,9 @@ public class Prac.Main {
 }
 
  */
+
+
+
 
 
 //============================================

@@ -1,4 +1,21 @@
 package HW;
 
-public class HW2_2 {
-}
+      public class HW2_2 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }

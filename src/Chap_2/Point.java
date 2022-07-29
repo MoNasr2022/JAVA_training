@@ -11,9 +11,11 @@ public class Point {
      }
 
      public double XCoordinate(){
+
          return this.x;
      }
      public double YCoordinate(){
+
          return this.y;
      }
 
