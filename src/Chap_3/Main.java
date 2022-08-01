@@ -29,9 +29,18 @@ public class Main {
         String[] children = new String[]{"Mary", "David", "Eric"};
 
         Person p1 = new Person("john", "male", 20, children );
-        System.out.println(p1.getGender());
-        p1.setAge(17);
-        System.out.println(p1.getAge());
+
+        String[] new_array = new String[]{"David", "Mary","Grinch"};
+
+        p1.setChildren(new_array);
+
+
+        for (int i = 0; i < p1.getChildren().length; i++ ){
+            System.out.println(p1.getChildren()[i]);
+
+        }
+       
+
 
 
 

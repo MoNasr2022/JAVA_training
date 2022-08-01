@@ -4,7 +4,7 @@ public class Person {
    private String name;
     private String gender;
     private int age;
-    private String children;
+    private String[] children;
 
 
 
@@ -48,11 +48,12 @@ public class Person {
 
     }
 
-    public String getChildren(){
+    public String[] getChildren(){
         return children;
     }
 
     public void setChildren(String[] children){
+        this.children = children;
 
     }
 
