@@ -29,7 +29,7 @@ package HW;
 
 
          public void eat(String Y) {
-             System.out.println( "after " + "he" + " has eaten " + Y);
+             System.out.println( this.name + " has eaten " + Y);
 
          }
      }
