@@ -32,11 +32,13 @@ public class Main {
 
         String[] new_array = new String[]{"David", "Mary","Grinch"};
 
-        p1.setChildren(new_array);
+        p1.setChildren(children);
+        children[1]= "Nasr";
 
+        for (int i = 0; i < p1.getChildren().length; i++ ){
+            System.out.println(p1.getChildren()[i]);
 
-        new_array[1]= "Nasr";
-        System.out.println(new_array[0] +"," + new_array[1] +"," + new_array[2] );
+        }
 
 
 

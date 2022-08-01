@@ -12,7 +12,10 @@ public class Person {
         this.name = name;
         this.gender = gender;
         this.age = age;
+        this.children = children;
     }
+
+
     public String talk(){
         return " Hello";
 
@@ -52,8 +55,9 @@ public class Person {
         return children;
     }
 
-    public void setChildren(String[] children){
-        this.children = children;
+    public void setChildren(String[] inputChildren){
+        this.children = new String[inputChildren.length];
+        System.arraycopy(inputChildren, 0,this.children, 0,inputChildren.length );
 
     }
 
