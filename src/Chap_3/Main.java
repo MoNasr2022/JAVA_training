@@ -35,11 +35,8 @@ public class Main {
         p1.setChildren(new_array);
 
 
-        for (int i = 0; i < p1.getChildren().length; i++ ){
-            System.out.println(p1.getChildren()[i]);
-
-        }
-       
+        new_array[1]= "Nasr";
+        System.out.println(new_array[0] +"," + new_array[1] +"," + new_array[2] );
 
 
 
