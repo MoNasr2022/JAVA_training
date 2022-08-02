@@ -10,9 +10,9 @@ public class Person {
 
     public Person(String name, String gender , int age , String[] children){
         this.name = name;
-        this.gender = gender;
-        this.age = age;
-        this.children = children;
+        setAge(age);
+        setGender(gender);
+        setChildren(children);
     }
 
 
@@ -52,7 +52,9 @@ public class Person {
     }
 
     public String[] getChildren(){
-        return children;
+        String[] copy = new String[this.children.length];
+        System.arraycopy(this.children, 0, copy,0 ,this.children.length);
+        return copy;
     }
 
     public void setChildren(String[] inputChildren){

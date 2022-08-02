@@ -23,25 +23,62 @@ public class Main {
 
 
 
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        String[] children = new String[]{"Mary", "David", "Eric"};
+//
+//        Person p1 = new Person("john", "male", 20, children );
+//
+//        String[] outSide_array = p1.getChildren();
+//
+//        outSide_array[0] = "nasr";
+//
+//
+//
+//        for (int i = 0; i < p1.getChildren().length; i++ ){
+//            System.out.println(p1.getChildren()[i]);
+//
+//        }
+//
+//
+//
+//
+//    }
+//}
 
+//=====================================================================
+
+/*
+import Chap_2.Player;
 public class Main {
     public static void main(String[] args) {
-        String[] children = new String[]{"Mary", "David", "Eric"};
+        Player p1 = new Player("Mohamed", 27);
+        Player p2 = new Player(28, "Ahmed");
 
-        Person p1 = new Person("john", "male", 20, children );
+        int Mohamed_total = 0;
+        int Ahmed_total = 0;
+        int Mohamed_current_rule = 0;
+        int Ahmed_current_rule = 0;
 
-        String[] new_array = new String[]{"David", "Mary","Grinch"};
+        while (Mohamed_total < 20 && Ahmed_total < 20) {
 
-        p1.setChildren(children);
-        children[1]= "Nasr";
 
-        for (int i = 0; i < p1.getChildren().length; i++ ){
-            System.out.println(p1.getChildren()[i]);
+            System.out.println("Mohamed current rule: " + p1.rule() + " || " + "Ahmed_current_rule: " + p2.rule());
+
+            Mohamed_total = Mohamed_total + p1.rule();
+            Ahmed_total = Ahmed_total + p2.rule();
+
 
         }
 
-
-
+        if (Mohamed_total >= 20) {
+            System.out.println("Mohamed wins");
+        } else {
+            System.out.println("Ahmed wins");
+        }
 
     }
 }
+
+ */

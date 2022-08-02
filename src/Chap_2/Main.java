@@ -432,8 +432,40 @@ public class main {
 
 //==================================================
 
+/*
+
+public class Main {
+    public static void main(String[] args) {
+        Player p1 = new Player("Mohamed", 27);
+        Player p2 = new Player(28,"Ahmed");
+
+        int Mohamed_total = 0;   int Ahmed_total = 0;
+        int Mohamed_current_rule = 0;   int Ahmed_current_rule = 0;
+
+        while (Mohamed_total < 20 && Ahmed_total < 20){
 
 
+            System.out.println("Mohamed current rule: " + p1.rule() +" || " + "Ahmed_current_rule: " + p2.rule());
+
+            Mohamed_total = Mohamed_total + p1.rule();
+            Ahmed_total = Ahmed_total + p2.rule();
+
+
+
+
+        }
+
+        if (Mohamed_total >= 20){
+            System.out.println("Mohamed wins");
+        }
+        else {
+            System.out.println("Ahmed wins");
+        }
+
+    }
+}
+
+ */
 
 
 
