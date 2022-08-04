@@ -19,35 +19,35 @@ public class Main {
 
  */
 
-//=======================================================================
+/*
+=======================================================================
+
+public class Main {
+    public static void main(String[] args) {
+        String[] children = new String[]{"Mary", "David", "Eric"};
+
+        Person p1 = new Person("john", "male", 20, children );
+
+        String[] outSide_array = p1.getChildren();
+
+        outSide_array[0] = "nasr";
 
 
 
-//
-//public class Main {
-//    public static void main(String[] args) {
-//        String[] children = new String[]{"Mary", "David", "Eric"};
-//
-//        Person p1 = new Person("john", "male", 20, children );
-//
-//        String[] outSide_array = p1.getChildren();
-//
-//        outSide_array[0] = "nasr";
-//
-//
-//
-//        for (int i = 0; i < p1.getChildren().length; i++ ){
-//            System.out.println(p1.getChildren()[i]);
-//
-//        }
-//
-//
-//
-//
-//    }
-//}
+        for (int i = 0; i < p1.getChildren().length; i++ ){
+            System.out.println(p1.getChildren()[i]);
 
-//=====================================================================
+        }
+
+
+
+
+    }
+}
+=====================================================================
+*/
+
+
 
 /*
 import Chap_2.Player;
