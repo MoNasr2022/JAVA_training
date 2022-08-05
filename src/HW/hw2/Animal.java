@@ -1,4 +1,4 @@
-package HW;
+package HW.hw2;
 
      public class Animal {
         private String name;

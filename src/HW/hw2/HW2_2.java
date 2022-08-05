@@ -1,4 +1,6 @@
-package HW;
+package HW.hw2;
+
+import HW.hw2.Animal;
 
 public class HW2_2 {
               public static void main(String[] args) {
