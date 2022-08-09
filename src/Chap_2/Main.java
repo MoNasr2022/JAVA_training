@@ -468,9 +468,57 @@ public class Main {
  */
 
 
+//import java.util.Arrays;
+//import java.util.Collections;
+//import java.util.OptionalInt;
+//
+//
 
 
+public class Main {
+    public static void main(String[] args) {
+       Integer[] nums = new Integer[]{1,5,0,3,5};
 
 
+       int x = 1000000, count = 0;
+
+       boolean a = true;
+       while(a) {
+
+           x = 100;
+           for(int i=0; i<nums.length; i++){
+
+               if(nums[i]!=0 && nums[i] < x) {
+                   x = nums[i];
 
 
+               }
+           }
+
+           for(int i=0; i< nums.length; i++){
+               nums[i] = nums[i] - x;
+               if(nums[i] < 0) {
+                   nums[i] = 0;
+               }
+               System.out.print(nums[i]);
+           }
+           System.out.println();
+
+           count = count + 1;
+
+           for(int i=0 ; i< nums.length; i++){
+               if(nums[i] == 0) {
+                   a = false;
+               } else {
+                   a = true;
+                   break;
+               }
+           }
+
+       }
+
+        System.out.println(count);
+
+
+    }
+}

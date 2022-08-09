@@ -44,7 +44,7 @@ public class Main {
 //The final keyword is useful when you want a variable to always store the same value, like PI (3.14159...).
         //a-
 
-         Printer myPrinter = new Printer(20,56, 44,"duplex",100);
+      //   Printer myPrinter = new Printer(20,56, 44,"duplex",100);
 
 //print some pages
 
